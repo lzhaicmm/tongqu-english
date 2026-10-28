@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>🎓 童趣英语 - 项目下载</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+         background: linear-gradient(135deg,#ffecd2,#fcb69f); min-height:100vh;
+         display:flex; align-items:center; justify-content:center; margin:0; padding:20px; }
+  .card { background:#fff; border-radius:20px; padding:40px; max-width:500px;
+          box-shadow:0 20px 60px rgba(0,0,0,.15); text-align:center; }
+  h1 { margin:0 0 8px; font-size:28px; }
+  .sub { color:#666; margin-bottom:30px; }
+  .info { background:#f5f7fa; border-radius:12px; padding:16px; margin-bottom:24px;
+          text-align:left; font-size:14px; line-height:1.8; }
+  .info b { color:#e67e22; }
+  .info code { background:#eee; padding:2px 6px; border-radius:4px; font-size:13px; }
+  a.download { display:inline-block; background:linear-gradient(135deg,#ff7e5f,#feb47b);
+               color:#fff; text-decoration:none; padding:16px 40px; border-radius:50px;
+               font-size:18px; font-weight:600; box-shadow:0 6px 20px rgba(255,126,95,.4);
+               transition:transform .2s; }
+  a.download:hover { transform:translateY(-2px); }
+  a.download:active { transform:translateY(0); }
+  .size { margin-top:10px; color:#888; font-size:13px; }
+  .steps { margin-top:30px; text-align:left; }
+  .steps h3 { margin-bottom:12px; }
+  .steps ol { padding-left:20px; line-height:2; color:#555; }
+  .steps code { background:#f0f0f0; padding:2px 6px; border-radius:4px;
+                font-family:Menlo,Consolas,monospace; font-size:13px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>🎓 童趣英语</h1>
+  <p class="sub">少儿英语学习平台 · 项目下载</p>
+
+  <div class="info">
+    📦 压缩包大小：<b>99 KB</b><br>
+    📄 文件数量：<b>58 个</b>（不含 node_modules）<br>
+    🔧 技术栈：React 19 + Vite + TypeScript + TailwindCSS
+  </div>
+
+  <a class="download" href="/tongqu-english.tar.gz" download>⬇️ 下载项目</a>
+  <p class="size">点击上方按钮下载到 Mac</p>
+
+  <div class="steps">
+    <h3>🚀 Mac 本地运行步骤</h3>
+    <ol>
+      <li>下载完成后，双击 <code>tongqu-english.tar.gz</code> 解压</li>
+      <li>打开终端，进入解压后的目录（Finder 里把文件夹拖进终端就行）</li>
+      <li>执行：<code>cd 文件夹路径 && npm install</code></li>
+      <li>执行：<code>npm run dev</code> 或 <code>./start.sh</code></li>
+      <li>浏览器打开 <code>http://localhost:5173</code></li>
+      <li>登录：<code>demo@kids.com / 123456</code></li>
+    </ol>
+  </div>
+</div>
+</body>
+</html>
